@@ -1,0 +1,4 @@
+# LinkStateRouting
+This project is about implementing a Link-state routing algorithm. 
+
+This is a Java based project. The objective of the project is to find ALL paths with lowest cost between 2 given nodes (Source and destination). The routing table for each node in the network needs to be computed and displayed. The project makes use of Dijkstra's algorithm to accomplish this. It is a link-state routing algorithm, named after its inventor Edsger W. Dijkstra. Dijkstra’s algorithm computes the least-cost path from one node (the source, which we will refer to as u) to all other nodes in the network. Dijkstra’s algorithm is iterative and has the property that after the kth iteration of the algorithm, the least-cost paths are known to k destination nodes, and among the leastcost paths to all destination nodes, these k paths will have the k smallest costs.
